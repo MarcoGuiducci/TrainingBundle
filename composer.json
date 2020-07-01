@@ -16,6 +16,7 @@
         "pimcore/pimcore": "^6.4.0",
         "erusev/parsedown": "^1.7"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Sintra\\TrainingBundle\\": ""
