@@ -1,0 +1,12 @@
+sintra_training:
+    resource: "@SintraTrainingBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+_get_bundles_settings:
+    path: /admin/settings/get-bundles-settings
+    defaults: { _controller: \Sintra\TrainingBundle\Controller\SettingsController::getBundlesSettingsAction }
+  
+_save_bundles_settings:
+    path: /admin/settings/save-bundles-settings
+    defaults: { _controller: \Sintra\TrainingBundle\Controller\SettingsController::saveBundlesSettingsAction }

@@ -1,0 +1,16 @@
+services:
+#    _defaults:
+#        autowire: true
+#        autoconfigure: true
+#        public: false
+
+    #
+    # OPERATOR FACTORIES
+    #
+
+    pimcore.data_object.import.operator.factory.fieldsetter:
+        class: Pimcore\DataObject\Import\ColumnConfig\Operator\Factory\DefaultOperatorFactory
+        arguments:
+            $className: Sintra\TrainingBundle\Import\ColumnConfig\Operator\FieldSetter
+        tags:
+            - { name: pimcore.data_object.import.operator_factory, id: FieldSetter }
