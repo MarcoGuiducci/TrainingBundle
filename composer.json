@@ -1,0 +1,24 @@
+{
+    "name": "sintra/training-bundle",
+    "type": "pimcore-bundle",
+    "description": "Sintra - TrainingBundle",
+    "keywords": ["pimcore", "sintra-consulting", "pimcore-plugin"],
+    "homepage": "https://www.sintraconsulting.it",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Marco Guiducci",
+            "email": "m.guiducci@sintraconsulting.eu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "pimcore/pimcore": "^6.4.0",
+        "erusev/parsedown": "^1.7",
+    },
+    "autoload": {
+        "psr-4": {
+            "Sintra\\TrainingBundle\\": "",
+        }
+    }
+}
