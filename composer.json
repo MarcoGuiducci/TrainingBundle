@@ -14,7 +14,7 @@
     ],
     "require": {
         "pimcore/pimcore": "^6.4.0",
-        "erusev/parsedown": "^1.7",
+        "erusev/parsedown": "^1.7"
     },
     "autoload": {
         "psr-4": {
